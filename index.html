@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop 🌸</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    
+    <!--Header and Navbar-->
+    <header>
+        <div class="logo">🌸 My Shop</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Basket</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Slider-->
+    <div class="slider">
+        <div class="slides" id="slides">
+          <div class="slide"><img src="assets/images/img1.jpg" alt="Slide 1"></div>
+          <div class="slide"><img src="assets/images/img2.jpg" alt="Slide 2"></div>
+          <div class="slide"><img src="assets/images/img3.jpg" alt="Slide 3"></div>
+        </div>
+   </div>
+
+    <!--Search-->
+    <section class="search">
+        <input type="text" placeholder="Search for products...">
+    </section>
+
+    <!--Cards-->
+    <section class="cards">
+        <div class="card">
+            <img src="assets/images/img4.jpg" alt="Product 1">
+            <h3>Gamepad</h3>
+            <button class="wishlist" onclick="addToWishlist(this)">Add To Wishlist</button>
+            <button class="basket" onclick="addToBasket(this)">Add To Basket</button>
+        </div>
+         <div class="card">
+            <img src="assets/images/img5.jpg" alt="Product 2">
+            <h3>Headphones</h3>
+            <button class="wishlist" onclick="addToWishlist(this)">Add To Wishlist</button>
+            <button class="basket" onclick="addToBasket(this)">Add To Basket</button>
+        </div>
+         <div class="card">
+            <img src="assets/images/img6.jpg" alt="Product 3">
+            <h3>Mouse</h3>
+            <button class="wishlist" onclick="addToWishlist(this)">Add To Wishlist</button>
+            <button class="basket" onclick="addToBasket(this)">Add To Basket</button>
+        </div>
+    </section>
+
+    <!--Register Form-->
+    <div class="form-section">
+        <h2>🌼 Register Now 🌼</h2>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button type="submit">Register</button>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p>My Shop 2025, All rights reserved</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffeefb;
+  color: #333;
+}
+
+header {
+    background-color: #bd6bb5;
+    color: azure;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.slider {
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+  display: flex;
+  width: 300%; 
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.search {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.search input {
+    width: 500px;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px #d2a3f4;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .wishlist {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #2377cb;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .wishlist:hover{
+    box-shadow: 0 4px 10px #3885d3;
+}
+
+.card .basket {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #7b47cf;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .basket:hover{
+    box-shadow: 0 4px 10px #9b64f3;
+}
+
+.form-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-section h2 {
+    margin-bottom: 25px;
+    color: #1e293b;
+    text-align: center;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-section button {
+    padding: 12px 20px;
+    margin-left: 170px;
+    background: #d14fc8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background: #15803d;
+}
+
+footer {
+    background-color: #bd6bb5;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+
+
